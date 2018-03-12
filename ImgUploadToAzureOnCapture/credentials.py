@@ -1,9 +1,9 @@
 
 
 #storage credentials 
-storage_account_name = 'facedatastorage'
-storage_account_key = 'SmXGFaVKJ8WdzT/cHYxncdWtv02hMUIC78Q0WxAXJVlkWDnc6ZBdm3i3KbzrOuPwqRzRJ4QwNoxZFF9koNd6fg=='
-storage_container_name = 'visitorimage'
+storage_account_name = 'account name'
+storage_account_key = 'key value'
+storage_container_name = 'container name'
 
 #file data
 file_content_type = 'image/jpeg'

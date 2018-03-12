@@ -52,7 +52,7 @@ READ ME FOR ImgUploadToAzureOnCapture:
 
  */1 * * * * sudo service motion restart
 
- */1,5 * * * * sudo python /home/pi/ImgUploadToAzureOnCapture/uploader.py &
+ */1.5 * * * * python /home/pi/ImgUploadToAzureOnCapture/uploader.py &
 
   These cronjob will do for every one minute service will restart so that best motion picture is taken and it is send to cloud.
 

@@ -11,10 +11,18 @@ READ ME FOR ImgUploadToAzureOnCapture:
 
 2.For instructions how to setup motion lib = https://circuitdigest.com/microcontroller-projects/raspberry-pi-surveillance-camera
 
-  do necessory changes in the motion lib 
+  do necessory changes in the motion lib or copy and paste the motion.conf in (/etc/motion/motion.conf)
 
   sudo nano /etc/motion/motion.conf
 
+  for copy and paste we need to give permissions to folder
+
+  sudo chmod +x /etc/motion/
+
+         or
+  
+  sudo chmod 777 /etc/motion/
+  
 
 3.After setuping the motion lib run the code uploader.py 
 

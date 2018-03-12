@@ -45,7 +45,7 @@ READ ME FOR ImgUploadToAzureOnCapture:
 
 6.This code send only one pic to cloud so we will make cronjob to restart service to get best picture and send it to cloud
 
-7. type sudo cronjob -e in terminal
+7. type cronjob -e in terminal
 
  at the end of the file add these two tines
 

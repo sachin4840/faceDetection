@@ -1,3 +1,7 @@
+$ sudo apt-get update
+$ sudo apt-get upgrade
+
+
 Run this command in your Rpi
 1. sudo apt-get install build-essential libssl-dev libffi-dev python-dev
 2. sudo pip install azure-storage-blob 
@@ -7,26 +11,26 @@ Run this command in your Rpi
 
 READ ME FOR ImgUploadToAzureOnCapture:
 
-1.install motion lib in the pi -- sudo apt-get install motion
+1.Install motion lib in the pi -- sudo apt-get install motion
 
 2.For instructions how to setup motion lib = https://circuitdigest.com/microcontroller-projects/raspberry-pi-surveillance-camera
 
   do necessory changes in the motion lib or copy and paste the motion.conf in (/etc/motion/motion.conf)
 
-  sudo nano /etc/motion/motion.conf
+  $ sudo nano /etc/motion/motion.conf
 
   for copy and paste we need to give permissions to folder
 
-  sudo chmod +x /etc/motion/
+  $ sudo chmod +x /etc/motion/
 
          or
   
-  sudo chmod 777 /etc/motion/
+  $ sudo chmod 777 /etc/motion/
   
 
 3.After setuping the motion lib run the code uploader.py 
 
-  - install before running the code
+  - Install before running the code
 
     1. sudo apt-get install build-essential libssl-dev libffi-dev python-dev
 
